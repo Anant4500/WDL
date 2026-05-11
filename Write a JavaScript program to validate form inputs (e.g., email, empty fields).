@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Form Validation</title>
+<style>
+body{
+font-family: Arial;
+background-color: #fff1f1;
+}
+.container{
+width: 350px;
+margin: 100px auto;
+padding: 20px;
+background: rgb(220, 250, 255);
+border-radius: 8px;
+box-shadow: 0px 0px 10px gray;
+text-align: center;
+}
+input{
+width: 90%;
+padding: 8px;
+margin: 8px;
+}
+button{
+padding: 8px 20px;
+background-color: #88ffd7;
+color: rgb(43, 0, 111);
+border: none;
+cursor: pointer;
+
+}
+button:hover{
+background-color: #1eb226;
+}
+.error{
+color: red;
+font-size: 14px;
+}
+</style>
+<script>
+function validateForm()
+{
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var error = document.getElementById("error");
+error.innerHTML = "";
+if(name == "" || email == "")
+{
+error.innerHTML = "All fields are required";
+return false;
+}
+var pattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+if(!email.match(pattern))
+{
+error.innerHTML = "Enter a valid email address";
+return false;
+}
+alert("Form Submitted Successfully");
+
+return true;
+}
+</script>
+</head>
+<body>
+<div class="container">
+<h2>Registration Form</h2>
+<form onsubmit="return validateForm()">
+<input type="text" id="name" placeholder="Enter Name">
+<input type="text" id="email" placeholder="Enter Email">
+<p id="error" class="error"></p>
+<button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
