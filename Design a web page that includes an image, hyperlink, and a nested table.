@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Practical 2 </title>
+</head>
+<body style = "background-color: linen;">
+<center>
+<h1>My Web Page</h1>
+</center>
+<img src="C:\Users\Snehal\OneDrive\Pictures\Saved Pictures\radhakrishna.png"
+alt="Radha krishna"
+width="200"
+height="150"
+style="border: 3px solid rgb(88, 255, 116);">
+<br><br>
+<b>Google Search: </b><a href="https://www.google.com"
+target="_blank">Visit Google</a><br><br>
+<table border="1" cellpadding="10">
+<tr>
+<th>Name</th>
+<th>Details</th>
+</tr>
+<!-- Student 1 Details -->
+<tr>
+<td>Sakhi</td>
+
+<td>
+<!-- Nested Table -->
+<table border="1" cellpadding="5">
+<tr>
+<th>Subject</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Web Development</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Discrete Mathematics</td>
+<td>96</td>
+</tr>
+<tr>
+<td>DBMS</td>
+<td>98</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- Student 2 Details -->
+<tr>
+<td>Krishna</td>
+<td>
+<Nested Table>
+<table border="1" cellpadding="5">
+<tr>
+
+<th>Subject</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Web Development</td>
+<td>93</td>
+</tr>
+<tr>
+<td>Discrete Mathematics</td>
+<td>91</td>
+</tr>
+<tr>
+<td>DBMS</td>
+<td>90</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
