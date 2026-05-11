@@ -1,5 +1,5 @@
 <?php
-$s = 'Nutan Maharashtra IT : Manali Patil';
+$s = 'Nutan Maharashtra IT : Anant Patil';
 echo 'String: ' . $s . '<br>';
 echo 'Length: ' . strlen($s) . '<br>';
 echo 'Reverse: ' . strrev($s) . '<br>';
