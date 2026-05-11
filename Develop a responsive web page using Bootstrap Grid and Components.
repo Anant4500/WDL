@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Healthy Lifestyle</title>
+<!-- Bootstrap CSS -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrapicons.css"
+rel="stylesheet">
+</head>
+<body>
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">Healthy Life</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="#">Home</a>
+</li>
+<li class="nav-item"><a class="nav-link" href="#habits">Habits</a>
+</li>
+<li class="nav-item"><a class="nav-link"
+href="#footer">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- ================= HERO SECTION ================= -->
+<div class="container-fluid bg-light text-center py-5">
+<h1 class="fw-bold text-success">Healthy Lifestyle</h1>
+<p class="lead">Simple habits for a better life</p>
+<button class="btn btn-success btn-lg mt-3"
+data-bs-toggle="collapse"
+data-bs-target="#aboutInfo">
+Learn More
+</button>
+<div class="collapse mt-3" id="aboutInfo">
+<div class="card card-body">
+A healthy lifestyle includes balanced diet, regular exercise,
+
+and proper sleep for physical and mental well-being.
+</div>
+</div>
+</div>
+<!-- ================= HABITS SECTION ================= -->
+<div class="container my-5" id="habits">
+<h2 class="text-center fw-bold mb-4">Healthy Habits</h2>
+<div class="row g-4 text-center">
+<!-- DIET -->
+<div class="col-sm-12 col-md-4">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<i class="bi bi-apple display-4 text-danger"></i>
+<h5 class="card-title mt-3">Healthy Diet</h5>
+<p class="card-text">Eat fresh and nutritious food.</p>
+<button class="btn btn-outline-danger"
+data-bs-toggle="collapse"
+data-bs-target="#dietInfo">
+Read More
+</button>
+<div class="collapse mt-3" id="dietInfo">
+<p>A balanced diet provides vitamins, minerals,
+and energy needed for a healthy body.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- EXERCISE -->
+
+<div class="col-sm-12 col-md-4">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<i class="bi bi-heart-pulse display-4 text-primary"></i>
+<h5 class="card-title mt-3">Exercise</h5>
+<p class="card-text">Stay active and energetic.</p>
+<button class="btn btn-outline-primary"
+data-bs-toggle="collapse"
+data-bs-target="#exerciseInfo">
+Read More
+</button>
+<div class="collapse mt-3" id="exerciseInfo">
+<p>Regular exercise improves strength,
+flexibility, and mental health.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- SLEEP -->
+<div class="col-sm-12 col-md-4">
+<div class="card h-100 shadow-sm">
+<div class="card-body">
+<i class="bi bi-moon-stars display-4 text-warning"></i>
+<h5 class="card-title mt-3">Proper Sleep</h5>
+<p class="card-text">Rest well for good health.</p>
+<button class="btn btn-outline-warning"
+data-bs-toggle="collapse"
+data-bs-target="#sleepInfo">
+
+Read More
+</button>
+<div class="collapse mt-3" id="sleepInfo">
+<p>Proper sleep helps the body recover,
+reduces stress, and boosts immunity.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ================= FOOTER ================= -->
+<footer class="bg-success text-white text-center py-3" id="footer">
+© 2026 Healthy Life | Contact: +91 9643377636
+</footer>
+<!-- Bootstrap JS -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
