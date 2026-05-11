@@ -1,0 +1,11 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+$u = $_POST['user'];
+echo "<h3>Access Granted</h3>";
+echo "Welcome Student: " . $u . "<br>";
+}
+?>
+<form method="POST">
+Enter Name: <input type="text" name="user">
+<input type="submit">
+</form>
