@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Styling Example</title>
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Internal CSS -->
+<style>
+h2 {
+color: rgb(77, 248, 208);
+text-align: center;
+}
+caption {
+font-size: 18px;
+color: #f768f9dc;
+
+}
+</style>
+</head>
+<body>
+<!-- Inline CSS -->
+<h1 style="text-decoration: underline;">
+Student Marks Table
+</h1>
+<h2>Internal CSS Heading.(Styled using External CSS file style.css)</h2>
+<p style="color: rgb(255, 162, 162); text-align: center;">
+This paragraph is styled using inline CSS.
+</p>
+<table>
+<caption>Semester Results</caption>
+<tr>
+<th>Roll No</th>
+<th>Name</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>101</td>
+<td>Amit</td>
+<td>85</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Neha</td>
+<td>90</td>
+
+</tr>
+<tr>
+<td>103</td>
+<td>Ravi</td>
+<td>78</td>
+</tr>
+</table>
+</body>
+</html>
+/* style.css */
+body {
+font-family: Arial, sans-serif;
+background-color: #fefefe;
+}
+h1 {
+color: rgb(3, 43, 94);
+text-align: center;
+}
+table {
+width: 70%;
+margin: auto;
+border-collapse: collapse;
+}
+th {
+background-color: #d7ebfa;
+color: rgb(77, 3, 118);
+}
+td, th {
+
+border: 1px solid #333;
+padding: 10px;
+text-align: center;
+}
