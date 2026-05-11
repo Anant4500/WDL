@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Details</title>
+</head>
+<body>
+<h1>Personal Information</h1>
+<p><b>Name:</b><mark>Manali Patil</mark></p>
+<p><b>Education:</b><em>Second Year Engineering</em></p>
+<p><b>Department:</b> Computer Engineering</p>
+<p><b>College Name:</b>NMIET, Talegaon</p>
+<p><b>Email Address:</b><i><u>manali.patil@example.com</u></i></p>
+<p><b>Mobile No.:</b> <del>96xxxxxxxx0</del></p>
+<p><b>Address:</b>Pune, Maharashtra</p>
+<p><b>Hobbies:</b> Crocheting, Painting, Skating</p>
+</body>
+</html>
